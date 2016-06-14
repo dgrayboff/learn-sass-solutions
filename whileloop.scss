@@ -1,0 +1,7 @@
+$i: 1;
+    @while $i > 0 {
+      h#{$i} { font-size: 24px - (3px * $i); }
+      $i: $i - 6;
+    }
+
+// displays h6 to h1, but can't get it to reverse //
